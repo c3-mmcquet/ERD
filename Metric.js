@@ -1,6 +1,5 @@
-class Rectangle {
-  constructor(height, width) {
-    this.height = height;
-    this.width = width;
+class Metric extends Entity {
+  constructor(entityName, fileText) {
+    super(entityName, fileText)
   }
 }
